@@ -1,0 +1,12 @@
+# Ignore compiled Java class files
+*.class
+
+# Ignore log files
+*.log
+
+# Ignore build/ and bin/ directories
+bin/
+build/
+
+# Ignore OS files
+.DS_Store
