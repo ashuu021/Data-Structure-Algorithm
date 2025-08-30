@@ -9,6 +9,6 @@ System.out.println(input.next()); //Take the str(one word)
 System.out.println(input.nextLine()); //Take the str(set of words)
 
 System.out.println(input.nextInt());//Take the integer
-
+input.close();
 } 
 }
