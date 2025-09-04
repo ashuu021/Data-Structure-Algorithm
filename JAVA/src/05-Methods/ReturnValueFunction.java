@@ -1,7 +1,7 @@
 import java.util.Scanner;
 public class ReturnValueFunction {
     public static void main(String[] args) {
-        int ans =sum();
+        int ans =sum();//Function call
 System.out.print("Sum is "+ans);
 
     }
