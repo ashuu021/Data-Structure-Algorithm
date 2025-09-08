@@ -12,6 +12,6 @@ public class ArrayListExample {
             list.add(sc.nextInt());
         }
         sc.close();
-        System.out.println(list);
+      System.out.println(list);   System.out.println(list);
     }
 }
