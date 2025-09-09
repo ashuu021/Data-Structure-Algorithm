@@ -16,11 +16,11 @@ public class SearchIn2DArray {
         for (int i = 0; i < arr.length; i++) {
             for (int j = 0; j < arr[i].length; j++) {
               if ( arr[i][j]==target) {
-                return new int[]{i,j};
+                return new int[]{i,j};//target found
               }
                
             }
         }
-return new int[]{-1,-1};
+return new int[]{-1,-1};//target not found
     }
 }
