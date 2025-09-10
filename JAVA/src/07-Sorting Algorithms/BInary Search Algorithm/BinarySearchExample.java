@@ -1,8 +1,8 @@
 public class BinarySearchExample {
 
     public static void main(String[] args) {
-        int [] nums={0,1,2,3,4};
-        int target=3;
+        int [] nums={0,1,5,7,11,22,134};
+        int target=22;
         System.out.println(search(nums, target));
     }
     static int search(int [] arr,int target){
@@ -10,10 +10,10 @@ public class BinarySearchExample {
     int end = arr.length-1;
     while (start<=end) {
         int mid = start+(end-start)/2;
-        if (mid==target) {
+        if (arr[mid]==target) {
             return mid;
         }
-        else if (mid<target) {
+        else if (arr[mid]<target) {
             start=mid+1;
         }
         else{
