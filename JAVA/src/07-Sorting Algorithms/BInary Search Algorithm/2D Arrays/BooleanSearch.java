@@ -1,4 +1,4 @@
-public class Search {
+public class BooleanSearch {
 
     public static void main(String[] args) {
         int[][] arr={
