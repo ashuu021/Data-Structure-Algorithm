@@ -6,11 +6,12 @@ public class NandNsqSearch {
       int ans = search(arr, target);
       int ans2 = search(arr, target * target);
 
-    //   if (ans != -1 && ans2 != -1 && ans2 == ans * ans) {
-    //      System.out.println(true);
-    //   } else {
-    //      System.out.println(false);
-    //   }
+      if (ans != -1 && ans2 != -1 && ans2 == ans * ans) {
+         System.out.println(true);
+      } else {
+         System.out.println(false);
+      }
+    
    }
 
    static int search(int[] arr, int target) {
