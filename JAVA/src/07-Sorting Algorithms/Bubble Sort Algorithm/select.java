@@ -7,5 +7,5 @@ public class select {
     // System.out.println(arr);\
     System.out.println(Arrays.toString(arr));
    }  
-    static int arr
+\
 }
